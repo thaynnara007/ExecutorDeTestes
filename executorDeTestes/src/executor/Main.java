@@ -7,8 +7,8 @@ public class Main {
 	public static void main(String[] args){
 		
 		String[] paths = new String[2];
-		paths [0] = "/executorPriorJ/executorDeTestes/src/testes/SingleTest";
-		paths[1] = "/executorPriorJ/executorDeTestes/src/executor/Teste";
+		paths [0] = "/executorDeTestes/src/testes/SingleTest";
+		paths[1] = "/executorDeTestes/src/executor/Teste";
 		Executor executor = new Executor(paths);
 		
 		try {
