@@ -11,4 +11,4 @@ e seja desejado executa-los em uma ordem específica, no branch executorType2 te
 variação do código original que faz isso.
 
 o modelo de entrada segue o seguinte padrão:
-<caminhoParaAClasseDeTeste>/<nomdeDoTeste>$<nomeDaClasse.java>#<qualquerComentarioDesejado>
+"(caminhoParaAClasseDeTeste)/(nomdeDoTeste)$(nomeDaClasse).java>#(qualquerComentarioDesejado)"
