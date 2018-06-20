@@ -6,15 +6,14 @@ public class Main {
 	
 	public static void main(String[] args){
 		
-		String[] paths = new String[2];
-		paths [0] = "/executorDeTestes/src/testes/SingleTest";
-		paths[1] = "/executorDeTestes/src/executor/Teste";
-		Executor executor = new Executor(paths);
+		String path = "/home/obi-wan/executorPriorJ/executorDeTestes/src/testes";
+		
+		Executor executor = new Executor(path);
 		
 		try {
 			
 			executor.executeAllTests();
-			System.out.println(executor.getTestsResults().toString());
+			executor.getTestsResults();
 			
 		}catch(ClassNotFoundException e) {
 			

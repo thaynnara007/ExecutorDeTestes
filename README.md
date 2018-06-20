@@ -12,3 +12,7 @@ variação do código original que faz isso.
 
 o modelo de entrada segue o seguinte padrão:
 "(caminhoParaAClasseDeTeste)/(nomdeDoTeste)$(nomeDaClasse).java>#(qualquerComentarioDesejado)"
+
+->executorType3:
+Executa todos os teste de uma pasta.
+o caminho para a pasta é passada como parâmetro
