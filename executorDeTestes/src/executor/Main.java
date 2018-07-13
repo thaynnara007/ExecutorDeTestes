@@ -13,8 +13,8 @@ public class Main {
 		
 		try {
 			
-			executor.executeAllTests();
-			System.out.println(executor.getTestsResults().toString());
+			executor.executeAll();
+			executor.getTestsResult()/
 			
 		}catch(ClassNotFoundException e) {
 			
