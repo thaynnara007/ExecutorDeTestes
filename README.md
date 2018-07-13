@@ -15,3 +15,11 @@ o modelo de entrada segue o seguinte padrão:
 
 -> executorType3:
 Executa os testes de uma pasta. O caminho para a pasta é passado como parâmetro
+
+-> executorType4:
+
+recebe como parametro uma string a qual representa varias suites de teste.
+cada caminho de teste é representado pelo formato:
+"(caminhoParaClasseDeTeste)/(classeDoTeste)$(nomeDoTeste).java#(qualquerComentarioDsejado)"
+Cada suite deve ser separada, dentro da string, por ";".
+O algoritimo dara como retorno um array de 0s e 1s para cada suite.
